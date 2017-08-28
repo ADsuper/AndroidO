@@ -47,6 +47,7 @@ public class NotificationOreo {
 
 
             Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(),R.mipmap.ic_launcher_round);
+
             Notification.Builder builder =
                     new Notification.Builder(context)
                             .setSmallIcon(R.mipmap.ic_launcher)
