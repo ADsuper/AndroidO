@@ -12,23 +12,17 @@
     <!--autoSizeTextType 自动根据布局改变字体大小-->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="200dp"
         android:autoSizeTextType="uniform"
         android:text="Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!"
         android:autoSizeMinTextSize="1sp"
         android:autoSizeMaxTextSize="100sp"
         android:typeface="serif"/>
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:autoSizeTextType="uniform"
-        android:text="Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!"
-
-
-        />
+<Button
+    android:text="PIPActivity"
+    android:id="@+id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
 
 </LinearLayout>

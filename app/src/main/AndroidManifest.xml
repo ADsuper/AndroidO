@@ -18,11 +18,15 @@
         </activity>
         <activity
             android:name=".ResultActivity"
-            android:parentActivityName=".MainActivity"
-            >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".PIPActivity"
+            android:supportsPictureInPicture="true"
+                  android:resizeableActivity="true"
+            >
         </activity>
     </application>
 
